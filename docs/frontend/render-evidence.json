@@ -1,0 +1,52 @@
+{
+  "viewport": {
+    "width": 320,
+    "height": 844
+  },
+  "horizontalOverflow": false,
+  "fontLoaded": true,
+  "contrastPairs": [
+    {
+      "foregroundSelector": "body",
+      "backgroundSelector": "body",
+      "foreground": "rgb(245, 240, 228)",
+      "background": "rgb(20, 25, 35)",
+      "ratio": 15.48
+    },
+    {
+      "foregroundSelector": ".intro p",
+      "backgroundSelector": "body",
+      "foreground": "rgb(173, 183, 201)",
+      "background": "rgb(20, 25, 35)",
+      "ratio": 8.71
+    },
+    {
+      "foregroundSelector": ".trade .primary",
+      "backgroundSelector": ".trade .primary",
+      "foreground": "rgb(20, 25, 35)",
+      "background": "rgb(243, 206, 133)",
+      "ratio": 11.72
+    },
+    {
+      "foregroundSelector": ".game-stats .muted",
+      "backgroundSelector": ".game-stats",
+      "foreground": "rgb(173, 183, 201)",
+      "background": "rgb(25, 31, 43)",
+      "ratio": 8.17
+    },
+    {
+      "foregroundSelector": ".live-copy h2",
+      "backgroundSelector": ".live-scene",
+      "foreground": "rgb(245, 240, 228)",
+      "background": "rgb(32, 38, 54)",
+      "ratio": 13.27
+    },
+    {
+      "foregroundSelector": ".scene-link",
+      "backgroundSelector": ".live-scene",
+      "foreground": "rgb(243, 206, 133)",
+      "background": "rgb(32, 38, 54)",
+      "ratio": 10.04
+    }
+  ]
+}

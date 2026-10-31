@@ -1,0 +1,7 @@
+# Explicit path budget: web/.gitignore only; dependencies and build caches at every depth.
+**/node_modules/
+**/.cache/
+**/.vite/
+**/test-results/
+**/playwright-report/
+**/*.tsbuildinfo

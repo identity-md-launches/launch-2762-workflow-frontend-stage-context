@@ -1,0 +1,99 @@
+
+> hamster-nap-web@1.0.0 build
+> node scripts/prepare.mjs && vite build && node scripts/export-manifest.mjs
+
+NapToken: pinned source 3b65e5a220554f121de6f6f12113836cbb93ac4f, canonical Keccak 66c0725e9072e2c383f59b9a3baa620d857711ec96837623ad2372c434b83f07
+HamsterNapHook: pinned source 3b65e5a220554f121de6f6f12113836cbb93ac4f, canonical Keccak 074b4765811b658cdcd2704e12cde81f6eb1ad57b7afda572635e207f6ccd681
+SqueekCore: pinned source 3b65e5a220554f121de6f6f12113836cbb93ac4f, canonical Keccak 7caf20dc143533f6ced3f770425df1b486c3a3036de2982870c9f8b9270c1633
+vite v7.1.12 building for production...
+transforming...
+node_modules/ox/_esm/core/Base64.js (6:27): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/ox/_esm/core/Base64.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@base-org/account/node_modules/ox/_esm/core/Address.js (6:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@base-org/account/node_modules/ox/_esm/core/Address.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@base-org/account/node_modules/ox/_esm/core/Base64.js (6:27): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@base-org/account/node_modules/ox/_esm/core/Base64.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@wagmi/connectors/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Address.js (6:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@wagmi/connectors/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Address.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@wagmi/connectors/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Base64.js (6:27): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@wagmi/connectors/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/Base64.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@wagmi/connectors/node_modules/zod/v4/core/regexes.js (74:0): A comment
+
+"/** Anchors a pattern source. The interpolation lives here rather than at the call site because
+ * esbuild will not drop a `@__PURE__` call whose own argument interpolates a variable, but it
+ * will drop `anchor(dateSource)`. Keeping it inline pinned `date` into every bundle. */"
+
+in "node_modules/@wagmi/connectors/node_modules/zod/v4/core/regexes.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@wagmi/connectors/node_modules/zod/v4/core/util.js (400:0): A comment
+
+"// Wrapped in a `@__PURE__` IIFE: esbuild never tree-shakes a top-level initializer that contains a member access on `Number`, so the bare object literal survived into every bundle."
+
+in "node_modules/@wagmi/connectors/node_modules/zod/v4/core/util.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@base-org/account/node_modules/ox/_esm/core/internal/cursor.js (2:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@base-org/account/node_modules/ox/_esm/core/internal/cursor.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@wagmi/connectors/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/internal/cursor.js (2:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@wagmi/connectors/node_modules/@coinbase/wallet-sdk/node_modules/ox/_esm/core/internal/cursor.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@walletconnect/utils/node_modules/ox/_esm/core/Address.js (6:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@walletconnect/utils/node_modules/ox/_esm/core/Address.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@walletconnect/utils/node_modules/ox/_esm/core/internal/cursor.js (2:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@walletconnect/utils/node_modules/ox/_esm/core/internal/cursor.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@reown/appkit/node_modules/ox/_esm/core/Address.js (6:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@reown/appkit/node_modules/ox/_esm/core/Address.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@reown/appkit/node_modules/ox/_esm/core/internal/cursor.js (2:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@reown/appkit/node_modules/ox/_esm/core/internal/cursor.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@reown/appkit-controllers/node_modules/ox/_esm/core/internal/cursor.js (2:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@reown/appkit-controllers/node_modules/ox/_esm/core/internal/cursor.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+node_modules/@reown/appkit-controllers/node_modules/ox/_esm/core/Address.js (6:21): A comment
+
+"/*#__PURE__*/"
+
+in "node_modules/@reown/appkit-controllers/node_modules/ox/_esm/core/Address.js" contains an annotation that Rollup cannot interpret due to the position of the comment. The comment will be removed to avoid issues.
+✓ 5088 modules transformed.
+rendering chunks...
+computing gzip size...
+../dist/index.html                            1.19 kB │ gzip:   0.58 kB
+../dist/assets/nunito-latin-BzFMHfZw.woff2   39.13 kB
+../dist/assets/index-CKFOGkoB.css            18.28 kB │ gzip:   4.33 kB
+../dist/assets/clsx.m-DHulAg21.js             0.48 kB │ gzip:   0.31 kB
+../dist/assets/ccip-DFZNRB2S.js               2.62 kB │ gzip:   1.24 kB
+../dist/assets/index-DWL4JmH3.js            310.91 kB │ gzip:  94.61 kB
+../dist/assets/index-B0Jx1_NH.js            445.96 kB │ gzip: 135.22 kB
+../dist/assets/index-CW1utXF6.js            580.01 kB │ gzip: 180.08 kB
+✓ built in 20.67s
+Manifest: 19 assets, 1538382 bytes

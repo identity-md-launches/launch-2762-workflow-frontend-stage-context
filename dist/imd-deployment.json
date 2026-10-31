@@ -1,0 +1,151 @@
+{
+  "version": 1,
+  "launchId": "26cd3948-7a8f-45b8-9119-8d0a2ad7f3a5",
+  "chainId": 11155111,
+  "sourceCommit": "3b65e5a220554f121de6f6f12113836cbb93ac4f",
+  "attestationHash": "c5d89eed51e45e1559295c20486ea410e79b9253ab064b68ed5b811d1a38dab6",
+  "contracts": [
+    {
+      "name": "NapToken",
+      "address": "0xd6259b2b92e60e85dd3cf0d82b41f25cb0147194",
+      "abiHash": "66c0725e9072e2c383f59b9a3baa620d857711ec96837623ad2372c434b83f07",
+      "abiPath": "abi/NapToken.json"
+    },
+    {
+      "name": "HamsterNapHook",
+      "address": "0xfbf041c63692f636170990d190dad6629b07a0cc",
+      "abiHash": "074b4765811b658cdcd2704e12cde81f6eb1ad57b7afda572635e207f6ccd681",
+      "abiPath": "abi/HamsterNapHook.json"
+    }
+  ],
+  "poolKey": {
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0xd6259b2b92e60e85dd3cf0d82b41f25cb0147194",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "hooks": "0xfbf041c63692f636170990d190dad6629b07a0cc"
+  },
+  "network": {
+    "chainId": 11155111,
+    "name": "Sepolia",
+    "testnet": true,
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "explorer": "https://sepolia.etherscan.io",
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "faucets": [
+      "https://cloud.google.com/application/web3/faucet/ethereum/sepolia",
+      "https://www.alchemy.com/faucets/ethereum-sepolia"
+    ],
+    "uniswapV4": {
+      "poolManager": "0xe03a1074c86cfedd5c142c4f04f1a1536e203543",
+      "universalRouter": "0x3a9d48ab9751398bbfa63ad67599bb04e4bdf98b",
+      "quoter": "0x61b3f2011a92d183c7dbadbda940a7555ccf9227",
+      "stateView": "0xe1dd9c3fa50edb962e442f60dfbc432e24537e4c",
+      "positionManager": "0x429ba70129df741b2ca2a85bc3a2a3328e5c09b4",
+      "permit2": "0x000000000022d473030f116ddee9f6b43ac78ba3"
+    }
+  },
+  "walletAddChain": {
+    "chainId": "0xaa36a7",
+    "chainName": "Sepolia",
+    "rpcUrls": [
+      "https://ethereum-sepolia-rpc.publicnode.com",
+      "https://rpc.sepolia.ethpandaops.io",
+      "https://sepolia.rpc.sentio.xyz"
+    ],
+    "nativeCurrency": {
+      "name": "Sepolia Ether",
+      "symbol": "ETH",
+      "decimals": 18
+    },
+    "blockExplorerUrls": [
+      "https://sepolia.etherscan.io"
+    ]
+  },
+  "assets": [
+    {
+      "path": "abi/HamsterNapHook.json",
+      "sha256": "70314bbc7e01c0243c79c3ee5f7718c192b72d78518e13bcf3ef1c4cac4e8449"
+    },
+    {
+      "path": "abi/NapToken.json",
+      "sha256": "fa18836656eb1ae9982431486552b11430fae5062204768f343a6f2792ca46ce"
+    },
+    {
+      "path": "abi/SqueekCore.json",
+      "sha256": "95d9ea6a90e68b7e3e124a111c9784d04fbe6a0d2b4e615757506d9fc6a04e91"
+    },
+    {
+      "path": "assets/ccip-DFZNRB2S.js",
+      "sha256": "58c01d4fec0d8bacd04e9f5264f988b274f56385525e72cfeb4d468de688a467"
+    },
+    {
+      "path": "assets/clsx.m-DHulAg21.js",
+      "sha256": "fb137b760bacfb05fc2eacfee16f7954a01bd739c1846a2efd5ea53e24f454e1"
+    },
+    {
+      "path": "assets/index-B0Jx1_NH.js",
+      "sha256": "e86545d6df21c1c60fb551267ef81bb54a65c7fff96a222907972bf7f342cf49"
+    },
+    {
+      "path": "assets/index-CKFOGkoB.css",
+      "sha256": "ecc97d309379e2b3743b093a18eb268a0ba6e617a9318a5a59ae6945e274f1db"
+    },
+    {
+      "path": "assets/index-CW1utXF6.js",
+      "sha256": "43ad8a8e860953b022b23918148b91c9a46b72d6d68d962c4a6de2e7f72c65c4"
+    },
+    {
+      "path": "assets/index-DWL4JmH3.js",
+      "sha256": "6b883f130258d7585ffe24d318f8cf66fde0902a60afc37f7d887e3505ede011"
+    },
+    {
+      "path": "assets/nunito-latin-BzFMHfZw.woff2",
+      "sha256": "ba344451eab25b217a165363b1982048a5e5830a0daf36577973955a04cac793"
+    },
+    {
+      "path": "favicon.svg",
+      "sha256": "f2b25d2a3da291ec5f3e1c40c6abb3ddd60a112272c12f6f1b4141289068ba18"
+    },
+    {
+      "path": "hamster.svg",
+      "sha256": "2120207df743fe30263323b483e139fba03d5bd02772f8a03b4c943079448bfd"
+    },
+    {
+      "path": "index.html",
+      "sha256": "09f6afbad492b5fb57eb6d1bdf59248b9b5179d1de92a67e8e27d77175770448"
+    },
+    {
+      "path": "share.png",
+      "sha256": "492f609de38533f7f055aa43a48f34a8c83b5b6d861cdabe513a914a4a4f6ad7"
+    },
+    {
+      "path": "wallets/browser.svg",
+      "sha256": "b5cbfb39da0a4e7e93e79c1edbb641a863d7881a47b4fd739ad9e0d6968e13c3"
+    },
+    {
+      "path": "wallets/coinbase.svg",
+      "sha256": "74b55347075cbbb2a0292cca0f94459d531afd23586ecfd2fcc670236c590439"
+    },
+    {
+      "path": "wallets/metamask.svg",
+      "sha256": "892c7dfab8c4ca5682878dda3f42f55a75195d7d365e4adb0832845f3a0a2135"
+    },
+    {
+      "path": "wallets/phantom.svg",
+      "sha256": "f841f8112e131259a2e5123177950099c79487e61e77971f4e193e6c374419eb"
+    },
+    {
+      "path": "wallets/rabby.svg",
+      "sha256": "dcae4de88ebfa10cffa1fe28df13d7c8c0b40736ef2b704f1f2fc348e777e443"
+    }
+  ]
+}

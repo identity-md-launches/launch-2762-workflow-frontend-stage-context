@@ -1,0 +1,66 @@
+{
+  "quoteEvidence": {
+    "mode": "eth_call simulation only, no signing or broadcast",
+    "amountIn": "1000000000000000",
+    "amountOut": "48171534989664962077418",
+    "gasEstimate": "188529"
+  },
+  "checkedAt": "2026-10-31T04:04:50.619Z",
+  "mode": "Read-only public RPC. No wallet, private key or broadcast.",
+  "chainId": 11155111,
+  "deployedCodeAndPoolVerified": true,
+  "contracts": [
+    {
+      "name": "NapToken",
+      "address": "0xd6259b2b92e60e85dd3cf0d82b41f25cb0147194",
+      "abiHash": "66c0725e9072e2c383f59b9a3baa620d857711ec96837623ad2372c434b83f07"
+    },
+    {
+      "name": "HamsterNapHook",
+      "address": "0xfbf041c63692f636170990d190dad6629b07a0cc",
+      "abiHash": "074b4765811b658cdcd2704e12cde81f6eb1ad57b7afda572635e207f6ccd681"
+    }
+  ],
+  "configuration": {
+    "streamId": "0x52e443e4e0d236ff0c07f4cdc518c594a3d680d20abb1481510efbed0ec73633",
+    "genesisTimestamp": "1793022600",
+    "roundDuration": "600",
+    "maxWorkPerRound": "10000",
+    "maxRoundsPerBatch": 16,
+    "guardian": "0x3C4C2BA9a5DFBfc5e48dcEABdd3B004131a04BE6",
+    "reporter": "0xB317AB7Cc24fD5d94EA120B3b189bc6527a7d0Aa",
+    "initialWorkPerThousandBlocks": 10000,
+    "targetBlocksPerActiveRound": "40",
+    "difficultySmoothingRounds": "30",
+    "blockUnitsPerBlock": "1000000000"
+  },
+  "game": {
+    "buyCount": "0",
+    "pot": "0",
+    "latest": "0x0000000000000000000000000000000000000000",
+    "scan": "0",
+    "zeroRun": "0",
+    "naps": "0",
+    "owed": "0",
+    "claims": "0",
+    "opens": "1793627400",
+    "failsafeWinner": [
+      "0x0000000000000000000000000000000000000000",
+      "0"
+    ],
+    "core": "0x980B4424c007CAf7a1f3670B48c8EaEf7EbC3d44",
+    "decimals": 18,
+    "minBuy": "1000000000000000",
+    "feeBps": "200",
+    "roundDuration": "600",
+    "genesis": "1793022600",
+    "tokenBalance": "0",
+    "ethBalance": "0",
+    "block": "12031330",
+    "timestamp": "1793419488",
+    "mayBuy": true,
+    "frontier": "661",
+    "napProgress": 3,
+    "claimable": "0"
+  }
+}

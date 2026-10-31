@@ -1,0 +1,18 @@
+
+> hamster-nap-web@1.0.0 verify
+> node scripts/verify-export.mjs
+
+{
+  "result": "PASS",
+  "assets": 19,
+  "exportBytes": 1538382,
+  "abiHashes": "match pinned handoff",
+  "network": "exact match",
+  "poolKey": {
+    "currency0": "0x0000000000000000000000000000000000000000",
+    "currency1": "0xd6259b2b92e60e85dd3cf0d82b41f25cb0147194",
+    "fee": 12500,
+    "tickSpacing": 60,
+    "hooks": "0xfbf041c63692f636170990d190dad6629b07a0cc"
+  }
+}

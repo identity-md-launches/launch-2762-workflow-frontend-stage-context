@@ -1,0 +1,57 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-2756-workflow-contract-stage-context",
+  "version": 1,
+  "launchId": "26cd3948-7a8f-45b8-9119-8d0a2ad7f3a5",
+  "manifest": {
+    "hook": {
+      "contract": "HamsterNapHook",
+      "permissions": [
+        "beforeInitialize",
+        "beforeSwap",
+        "afterSwap",
+        "beforeSwapReturnDelta",
+        "afterSwapReturnDelta"
+      ],
+      "constructorArgs": [
+        "$poolManager",
+        "$factory"
+      ]
+    },
+    "kind": "univ4_hook",
+    "pool": {
+      "fee": 12500,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Hamster Nap (NAP) on Sepolia. The hook constructor takes the PoolManager and launch factory in that order and reads no external contracts. beforeInitialize accepts only the factory via PoolManager, binds one native-ETH pool and learns its token from PoolKey.currency1. NapToken has no constructor arguments. Neither contract has owner, pause or upgrade powers. Buys charge a 2% game fee on executed gross ETH, separate from the pool's 1.25% LP fee; sells pay no game fee and never read SqueekCore. Buys spending at least 0.001 ETH record tx.origin as the latest qualifying buyer; smaller buys still contribute fees. The fixed SqueekCore proxy is 0x980b4424c007caf7a1f3670b48c8eaef7ebc3d44, with genesis 1793022600 and 600-second rounds. Three consecutive settled zero-work rounds form a nap. Anyone can call settleNaps to process naps in order, paying fees collected before each nap's start to the last qualifying buyer before that start; later fees remain for later games. A continuous zero-work run pays once. Fees become ERC-6909 ETH claims if PoolManager lacks ETH, redeemable through redeemClaims or before payout. Payouts give the winner 100000 gas; failed winner transfers and unused partial-fill fee reservations become withdrawOwed credits. settleNaps reverts with CoreUnreadable when the core cannot be read. The seven-day failsafe opens once the core's frontier has stood still for 7 days, measured from the later of the last observed frontier advance (initially game start) and the frontier round's end. It first settles every nap the core certified before stalling (up to 8 pages, else it reverts with NapsUnsettled until settleNaps catches up), then pays the last qualifying buyer whose buy preceded the failsafe cutoff (the later of the opening and seven days ago) the unpaid fees collected through that buy; later fees stay in the pot until they are themselves seven days old. The first-game Sworn check applies only on mainnet and is skipped on Sepolia. pool.initialPrice records the required reference value; the deployer derives the actual opening price from the launch policy.",
+    "token": {
+      "name": "Hamster Nap",
+      "symbol": "NAP",
+      "contract": "NapToken",
+      "decimals": 18
+    }
+  },
+  "contracts": [
+    {
+      "name": "NapToken",
+      "txHash": "0x9c3f42b373e65da922426224783fa371c0c5c5574dfc3e611734af74e8a2181a",
+      "abiHash": "66c0725e9072e2c383f59b9a3baa620d857711ec96837623ad2372c434b83f07",
+      "address": "0xd6259b2b92e60e85dd3cf0d82b41f25cb0147194",
+      "blockNumber": 12031212,
+      "creationCodeHash": "eca3881676de60d5a5801fcc20c72f7c4830c20fa04c58f11a6a95a9399b7293"
+    },
+    {
+      "name": "HamsterNapHook",
+      "txHash": "0x9c3f42b373e65da922426224783fa371c0c5c5574dfc3e611734af74e8a2181a",
+      "abiHash": "074b4765811b658cdcd2704e12cde81f6eb1ad57b7afda572635e207f6ccd681",
+      "address": "0xfbf041c63692f636170990d190dad6629b07a0cc",
+      "blockNumber": 12031212,
+      "creationCodeHash": "1db0d6daa35a33ae24dd1891a608f54d3562982046392a0256e1e587184eed3b"
+    }
+  ],
+  "sourceCommit": "3b65e5a220554f121de6f6f12113836cbb93ac4f",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "c5d89eed51e45e1559295c20486ea410e79b9253ab064b68ed5b811d1a38dab6"
+}

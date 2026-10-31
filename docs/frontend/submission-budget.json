@@ -1,0 +1,14 @@
+{
+  "scopeCheck": "PASS",
+  "budgetBytes": 8388608,
+  "addedFilesAtInventory": 79,
+  "addedBytesAtInventory": 2768651,
+  "inventoryExcludesThisReport": true,
+  "productionAssets": 19,
+  "productionAssetBytes": 1538382,
+  "generatedDependenciesOrArchivesInSubmission": false,
+  "protectedSourceAndConfigurationChanged": false,
+  "ignoreFilePathAllowance": "web/.gitignore explicitly authorized by the assignment",
+  "designDocumentPath": "docs/DESIGN.md (root path excluded by overriding scope)",
+  "localGitCommit": "Not performed: .git/index.lock is on a read-only file system; files ready for submission capture."
+}

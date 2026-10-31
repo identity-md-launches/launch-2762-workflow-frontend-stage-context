@@ -1,0 +1,23 @@
+{
+  "width": 390,
+  "scrollWidth": 390,
+  "primary": {
+    "x": 36,
+    "y": 773.109375,
+    "width": 318,
+    "height": 49.59375,
+    "top": 773.109375,
+    "right": 354,
+    "bottom": 822.703125,
+    "left": 36
+  },
+  "fontLoaded": true,
+  "headings": [
+    "Connect a wallet",
+    "Last buy before bedtime.",
+    "The wheel is quiet.",
+    "A little NAP?",
+    "A nap in the making",
+    "When bedtime is settled"
+  ]
+}

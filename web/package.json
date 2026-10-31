@@ -1,0 +1,35 @@
+{
+  "name": "hamster-nap-web",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "build": "node scripts/prepare.mjs && vite build && node scripts/export-manifest.mjs",
+    "preview": "vite preview --host 0.0.0.0",
+    "verify": "node scripts/verify-export.mjs",
+    "test": "tsx --test tests/*.test.ts",
+    "test:browser": "node tests/browser.mjs"
+  },
+  "dependencies": {
+    "@coinbase/wallet-sdk": "4.3.7",
+    "@tanstack/react-query": "5.90.5",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "viem": "2.38.5",
+    "wagmi": "2.19.5"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "4.10.2",
+    "@types/node": "24.9.1",
+    "@types/react": "19.2.2",
+    "@types/react-dom": "19.2.2",
+    "@vitejs/plugin-react": "5.0.4",
+    "playwright": "1.56.1",
+    "prettier": "3.6.2",
+    "tsx": "4.20.6",
+    "typescript": "5.9.3",
+    "vite": "7.1.12"
+  }
+}

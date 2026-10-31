@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-31T04:18:20.644Z",
+  "mode": "Production export at /preview/, Chromium, mocked wallet and RPC. No broadcasts.",
+  "results": [
+    {
+      "name": "390px product, state and main action on first screen; disconnected balance is neutral",
+      "passed": true
+    },
+    {
+      "name": "Recent winner and payout link decode from the hook event log",
+      "passed": true
+    },
+    {
+      "name": "EIP-6963 discovery, keyboard Tab/Enter connection, modal Escape and focus restoration",
+      "passed": true
+    },
+    {
+      "name": "Connect switches unknown chain via exact add-chain handoff then retries switch",
+      "passed": true
+    },
+    {
+      "name": "Buy quotes, review, router simulation, wallet rejection and retry recovery",
+      "passed": true
+    },
+    {
+      "name": "Buy simulation targets configured router with native value and V4 command",
+      "passed": true
+    },
+    {
+      "name": "Wrong-chain state replaces transaction action with chain switch",
+      "passed": true
+    },
+    {
+      "name": "Sell exposes separate exact-amount ERC20→Permit2 and Permit2→router approvals, waits for receipts",
+      "passed": true
+    },
+    {
+      "name": "Sell executes through configured router with zero native value and confirmed feedback",
+      "passed": true
+    },
+    {
+      "name": "Claim processes certified naps in order using bounded pages",
+      "passed": true
+    },
+    {
+      "name": "Deferred withdrawal, claim redemption and stale-core failsafe controls simulate and submit",
+      "passed": true
+    },
+    {
+      "name": "Axe accessibility scans: no violations in disconnected and connected expanded states",
+      "passed": true
+    },
+    {
+      "name": "No horizontal overflow at 320, 390, 768 and 1440 with connected state",
+      "passed": true
+    },
+    {
+      "name": "Large balances, full address and 200% text enlargement reflow without horizontal scrolling",
+      "passed": true
+    },
+    {
+      "name": "Reduced-motion media setting disables smooth scrolling",
+      "passed": true
+    },
+    {
+      "name": "Quote failure is persistent, recoverable and prevents signing",
+      "passed": true
+    },
+    {
+      "name": "Core failure shows unknown certified state while sell remains available",
+      "passed": true
+    },
+    {
+      "name": "Offline API is labeled separately from certified chain state",
+      "passed": true
+    },
+    {
+      "name": "Old activity measurements are marked stale",
+      "passed": true
+    },
+    {
+      "name": "Missing deployed code disables trading with visible recovery guidance",
+      "passed": true
+    },
+    {
+      "name": "Phone browser without injection offers all four wallet-browser links and Coinbase Smart Wallet",
+      "passed": true
+    },
+    {
+      "name": "Desktop missing-wallet state explains recovery and keeps Coinbase available",
+      "passed": true
+    },
+    {
+      "name": "No browser script errors in validated interactions",
+      "passed": true
+    }
+  ],
+  "scriptErrors": [],
+  "localResourceFailures": [],
+  "cancelledRequestsDuringNavigation": 5,
+  "accessibilityScans": [
+    {
+      "state": "disconnected",
+      "violations": []
+    },
+    {
+      "state": "connected, utility controls expanded",
+      "violations": []
+    }
+  ],
+  "screenshots": "test/scratch/frontend-browser/ (ephemeral); selected final evidence retained under docs/frontend/"
+}
